@@ -6,7 +6,7 @@ public class BeforeAndAfterMethodExample {
 
     @BeforeMethod
     public void setUp(){
-        System.out.println("Before method");
+        System.out.println("test method");
     }
     @AfterMethod
     public void tearDown(){
