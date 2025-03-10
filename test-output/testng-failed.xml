@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="courseName" value="Java"/>
+  <parameter name="cityName" value="Mumbai"/>
+  <parameter name="browserName" value="chrome"/>
+  <listeners>
+    <listener class-name="testng.listeners.Transformation"/>
+  </listeners>
+  <test thread-count="5" name="C:/Users/cebsu/IdeaProjects/Maven_3_Dec_24(failed)">
+    <groups>
+      <run>
+        <exclude name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testng.basicsoftestng.PriorityExample">
+        <methods>
+          <include name="testCaseF"/>
+        </methods>
+      </class> <!-- testng.basicsoftestng.PriorityExample -->
+    </classes>
+  </test> <!-- C:/Users/cebsu/IdeaProjects/Maven_3_Dec_24(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
